@@ -1,0 +1,71 @@
+@font-face{
+    font-family: digital;
+    src: url(../font/digital-7.ttf);
+}
+.orange{
+    background: #F8C146;
+    color: #fff;
+}
+.gray{
+    background: #E0E0E0;
+}
+.green{
+    background: #39811D;
+}
+.red{
+    background: #ED3833;
+}
+body{
+    margin: 0;
+}
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, rgba(112,112,112,1) 0%, rgba(192,192,192,1) 50%);
+}
+article{
+    width: 400px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1{
+    font-size: 3rem;
+    font-family: digital;
+    color: lime;
+    text-align: right;
+    margin: 0;
+}
+div{
+    grid-column: 1/-1;
+    background: #4e4e4e;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+button{
+    font-size: 1.2rem;
+    border: 1px solid #333;
+}
+button:focus {
+    outline:0;
+}
+button:active{
+    font-weight: 800;
+    transform: scale(1.1);
+    border: 2px solid #333;
+}
+span{
+    animation: fade 2s infinite;
+    color: lime;
+}
+@keyframes fade {
+    0%,100%{
+        color: lime;
+    }
+    50%{
+        color: #4e4e4e;
+    }
+}
