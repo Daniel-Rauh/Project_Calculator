@@ -27,7 +27,7 @@ body{
 }
 article{
     width: 400px;
-    height: 300px;
+    height: 320px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -37,10 +37,24 @@ h1{
     color: lime;
     text-align: right;
     margin: 0;
+    padding: 2px;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: digital;
+    color: lime;
+    margin: 0;
+    padding: 3px;
+    position: absolute;
 }
 div{
     grid-column: 1/-1;
     background: #4e4e4e;
+}
+div:nth-of-type(1){
+    position: relative;
+}
+div:nth-of-type(2){
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;

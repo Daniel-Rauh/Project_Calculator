@@ -5,6 +5,7 @@ function output() {
 function reset() {
     x = ""
     document.getElementById("display").innerHTML = "<span>.....</span>"
+    document.getElementById("last").innerHTML = ""
 }
 function zero() {
     x += "0"
@@ -58,5 +59,6 @@ function bracketTwo() {
     x += ")"
 }
 function calculate() {
+    document.getElementById("last").innerHTML = x + "="
     x = eval(x).toFixed(2)
 }
