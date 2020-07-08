@@ -60,5 +60,5 @@ function bracketTwo() {
 }
 function calculate() {
     document.getElementById("last").innerHTML = x + " ="
-    x = eval(x).toFixed(2)
+    x = eval(x)
 }
