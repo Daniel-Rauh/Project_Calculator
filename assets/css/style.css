@@ -23,7 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(35deg, rgba(112,112,112,1) 0%, rgba(192,192,192,1) 50%);
+    background: linear-gradient(35deg, #3b3b3b 0%, #c0c0c0 50%);
 }
 article{
     width: 400px;
