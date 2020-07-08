@@ -83,3 +83,7 @@ span{
         color: #4e4e4e;
     }
 }
+article>span{
+    border: 1px solid #333;
+    background: #fff;
+}
