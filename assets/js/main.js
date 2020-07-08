@@ -1,6 +1,4 @@
 let x = ""
-let y
-let z
 function output() {
     document.getElementById("display").innerHTML = x
 }
