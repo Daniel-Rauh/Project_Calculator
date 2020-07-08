@@ -59,6 +59,6 @@ function bracketTwo() {
     x += ")"
 }
 function calculate() {
-    document.getElementById("last").innerHTML = x + "="
+    document.getElementById("last").innerHTML = x + " ="
     x = eval(x).toFixed(2)
 }
