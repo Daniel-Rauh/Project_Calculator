@@ -51,6 +51,12 @@ function add() {
 function subtract() {
     x += " - "
 }
+function bracketOne() {
+    x += "("
+}
+function bracketTwo() {
+    x += ")"
+}
 function calculate() {
-    x = eval(x)
+    x = eval(x).toFixed(2)
 }
